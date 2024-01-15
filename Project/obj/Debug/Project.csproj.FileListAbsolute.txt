@@ -1,0 +1,10 @@
+C:\Users\kacpe\source\repos\Project\Project\bin\Debug\Project.exe.config
+C:\Users\kacpe\source\repos\Project\Project\bin\Debug\Project.exe
+C:\Users\kacpe\source\repos\Project\Project\bin\Debug\Project.pdb
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.csproj.AssemblyReference.cache
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.Form1.resources
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.Properties.Resources.resources
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.exe
+C:\Users\kacpe\source\repos\Project\Project\obj\Debug\Project.pdb
