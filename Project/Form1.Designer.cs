@@ -189,7 +189,7 @@
             this.WindDirection.Padding = new System.Windows.Forms.Padding(3);
             this.WindDirection.Size = new System.Drawing.Size(509, 394);
             this.WindDirection.TabIndex = 0;
-            this.WindDirection.Text = "Wind Direction Chart";
+            this.WindDirection.Text = "Humidity Chart";
             this.WindDirection.UseVisualStyleBackColor = true;
             // 
             // humiditychart
