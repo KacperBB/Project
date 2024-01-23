@@ -76,9 +76,8 @@ namespace Project
                 // Update the corresponding text box and chart based on the label
                 switch (label)
                 {
-                    case "Wind Direction":
-                        textBoxWindDirection.Text = value;
-                        UpdateChart(winddirectionchart, numericValue);
+                    case "Altitude":
+                        textBoxAltitude.Text = value;
                         break;
                     case "Wind Speed":
                         textBoxWindSpeed.Text = value;
@@ -95,6 +94,10 @@ namespace Project
                     case "QNH":
                         textBoxQNH.Text = value;
                         UpdateChart(qnhchart, numericValue);
+                        break;
+                    case "Humidity":
+                        textBoxHumidity.Text = value;
+                        UpdateChart(humiditychart, numericValue);
                         break;
                 }
             }));
@@ -130,25 +133,27 @@ namespace Project
             {
                 // Generate random data for testing
                 Random random = new Random();
-                double windDirectionValue = random.Next(0, 360);
+                double altitudeValue = random.Next(0, 5000); // Random altitude
                 double windSpeedValue = random.Next(0, 100);
                 double temperatureValue = random.Next(-10, 35);
                 double dewPointValue = random.Next(-10, 25);
                 double qnhValue = random.Next(950, 1050);
-
-                UpdateChart(winddirectionchart, windDirectionValue);
-                UpdateChart(windspeedchart, windSpeedValue);
-                UpdateChart(temperaturechart, temperatureValue);
-                UpdateChart(dewpointchart, dewPointValue);
-                UpdateChart(qnhchart, qnhValue);
+                double humidityValue = random.Next(0, 100);
 
                 // Update text boxes with random values
-                // Ensure the text box names match these
-                textBoxWindDirection.Text = windDirectionValue.ToString();
+                textBoxAltitude.Text = altitudeValue.ToString();
                 textBoxWindSpeed.Text = windSpeedValue.ToString();
                 textBoxTemperature.Text = temperatureValue.ToString();
                 textBoxDewPoint.Text = dewPointValue.ToString();
                 textBoxQNH.Text = qnhValue.ToString();
+                textBoxHumidity.Text = humidityValue.ToString();
+
+                // Update charts with random values
+                UpdateChart(windspeedchart, windSpeedValue);
+                UpdateChart(temperaturechart, temperatureValue);
+                UpdateChart(dewpointchart, dewPointValue);
+                UpdateChart(qnhchart, qnhValue);
+                UpdateChart(humiditychart, humidityValue);
 
                 statusLabel.Text = "Generating random DATA";
             }
@@ -302,6 +307,11 @@ namespace Project
         }
 
         private void comListener_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
         {
 
         }

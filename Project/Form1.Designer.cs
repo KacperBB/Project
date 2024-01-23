@@ -30,69 +30,63 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea6 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series6 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea8 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series8 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea9 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series9 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea10 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Series series10 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea4 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series4 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.eventLog1 = new System.Diagnostics.EventLog();
-            this.textBoxWindDirection = new System.Windows.Forms.TextBox();
             this.textBoxWindSpeed = new System.Windows.Forms.TextBox();
             this.textBoxDewPoint = new System.Windows.Forms.TextBox();
             this.textBoxTemperature = new System.Windows.Forms.TextBox();
             this.textBoxQNH = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.statusLabel = new System.Windows.Forms.Label();
-            this.component11 = new Project.Component1(this.components);
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.WindDirection = new System.Windows.Forms.TabPage();
+            this.humiditychart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.WindSpeed = new System.Windows.Forms.TabPage();
-            this.winddirectionchart = new System.Windows.Forms.DataVisualization.Charting.Chart();
-            this.DewPoint = new System.Windows.Forms.TabPage();
-            this.Temperature = new System.Windows.Forms.TabPage();
-            this.QNH = new System.Windows.Forms.TabPage();
             this.windspeedchart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.DewPoint = new System.Windows.Forms.TabPage();
             this.dewpointchart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.Temperature = new System.Windows.Forms.TabPage();
             this.temperaturechart = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.QNH = new System.Windows.Forms.TabPage();
             this.qnhchart = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.onbutton = new System.Windows.Forms.Button();
             this.offbutton = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.comListener = new System.Windows.Forms.ComboBox();
+            this.Humidity = new System.Windows.Forms.Label();
+            this.textBoxHumidity = new System.Windows.Forms.TextBox();
+            this.altitude = new System.Windows.Forms.Label();
+            this.textBoxAltitude = new System.Windows.Forms.TextBox();
+            this.component11 = new Project.Component1(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).BeginInit();
             this.tabControl1.SuspendLayout();
             this.WindDirection.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.humiditychart)).BeginInit();
             this.WindSpeed.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.winddirectionchart)).BeginInit();
-            this.DewPoint.SuspendLayout();
-            this.Temperature.SuspendLayout();
-            this.QNH.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.windspeedchart)).BeginInit();
+            this.DewPoint.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dewpointchart)).BeginInit();
+            this.Temperature.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.temperaturechart)).BeginInit();
+            this.QNH.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.qnhchart)).BeginInit();
             this.SuspendLayout();
             // 
             // eventLog1
             // 
             this.eventLog1.SynchronizingObject = this;
-            // 
-            // textBoxWindDirection
-            // 
-            this.textBoxWindDirection.Location = new System.Drawing.Point(43, 56);
-            this.textBoxWindDirection.Name = "textBoxWindDirection";
-            this.textBoxWindDirection.Size = new System.Drawing.Size(100, 20);
-            this.textBoxWindDirection.TabIndex = 0;
-            this.textBoxWindDirection.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBoxWindSpeed
             // 
@@ -125,16 +119,6 @@
             this.textBoxQNH.Size = new System.Drawing.Size(100, 20);
             this.textBoxQNH.TabIndex = 8;
             this.textBoxQNH.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(77, 13);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Wind Direction";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -199,7 +183,7 @@
             // 
             // WindDirection
             // 
-            this.WindDirection.Controls.Add(this.winddirectionchart);
+            this.WindDirection.Controls.Add(this.humiditychart);
             this.WindDirection.Location = new System.Drawing.Point(4, 22);
             this.WindDirection.Name = "WindDirection";
             this.WindDirection.Padding = new System.Windows.Forms.Padding(3);
@@ -207,6 +191,24 @@
             this.WindDirection.TabIndex = 0;
             this.WindDirection.Text = "Wind Direction Chart";
             this.WindDirection.UseVisualStyleBackColor = true;
+            // 
+            // humiditychart
+            // 
+            chartArea1.Name = "ChartArea1";
+            this.humiditychart.ChartAreas.Add(chartArea1);
+            this.humiditychart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.humiditychart.Location = new System.Drawing.Point(0, 0);
+            this.humiditychart.Name = "humiditychart";
+            series1.ChartArea = "ChartArea1";
+            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series1.IsValueShownAsLabel = true;
+            series1.Label = "c";
+            series1.Name = "Series1";
+            this.humiditychart.Series.Add(series1);
+            this.humiditychart.Size = new System.Drawing.Size(513, 394);
+            this.humiditychart.TabIndex = 19;
+            this.humiditychart.Text = "chart1";
+            this.humiditychart.Click += new System.EventHandler(this.chart1_Click_1);
             // 
             // WindSpeed
             // 
@@ -219,23 +221,23 @@
             this.WindSpeed.Text = "Wind Speed Chart";
             this.WindSpeed.UseVisualStyleBackColor = true;
             // 
-            // winddirectionchart
+            // windspeedchart
             // 
-            chartArea6.Name = "ChartArea1";
-            this.winddirectionchart.ChartAreas.Add(chartArea6);
-            this.winddirectionchart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.winddirectionchart.Location = new System.Drawing.Point(0, 0);
-            this.winddirectionchart.Name = "winddirectionchart";
-            series6.ChartArea = "ChartArea1";
-            series6.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series6.IsValueShownAsLabel = true;
-            series6.Label = "c";
-            series6.Name = "Series1";
-            this.winddirectionchart.Series.Add(series6);
-            this.winddirectionchart.Size = new System.Drawing.Size(513, 394);
-            this.winddirectionchart.TabIndex = 19;
-            this.winddirectionchart.Text = "chart1";
-            this.winddirectionchart.Click += new System.EventHandler(this.chart1_Click_1);
+            chartArea2.Name = "ChartArea1";
+            this.windspeedchart.ChartAreas.Add(chartArea2);
+            this.windspeedchart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.windspeedchart.Location = new System.Drawing.Point(0, 0);
+            this.windspeedchart.Name = "windspeedchart";
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsValueShownAsLabel = true;
+            series2.Label = "c";
+            series2.Name = "Series1";
+            this.windspeedchart.Series.Add(series2);
+            this.windspeedchart.Size = new System.Drawing.Size(509, 394);
+            this.windspeedchart.TabIndex = 18;
+            this.windspeedchart.Text = "chart2";
+            this.windspeedchart.Click += new System.EventHandler(this.chart2_Click);
             // 
             // DewPoint
             // 
@@ -247,6 +249,24 @@
             this.DewPoint.Text = "Dew Point Chart";
             this.DewPoint.UseVisualStyleBackColor = true;
             // 
+            // dewpointchart
+            // 
+            chartArea3.Name = "ChartArea1";
+            this.dewpointchart.ChartAreas.Add(chartArea3);
+            this.dewpointchart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.dewpointchart.Location = new System.Drawing.Point(0, 4);
+            this.dewpointchart.Name = "dewpointchart";
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.IsValueShownAsLabel = true;
+            series3.Label = "c";
+            series3.Name = "Series1";
+            this.dewpointchart.Series.Add(series3);
+            this.dewpointchart.Size = new System.Drawing.Size(509, 394);
+            this.dewpointchart.TabIndex = 19;
+            this.dewpointchart.Text = "chart3";
+            this.dewpointchart.Click += new System.EventHandler(this.chart3_Click);
+            // 
             // Temperature
             // 
             this.Temperature.Controls.Add(this.temperaturechart);
@@ -256,6 +276,24 @@
             this.Temperature.TabIndex = 3;
             this.Temperature.Text = "Temperature Chart";
             this.Temperature.UseVisualStyleBackColor = true;
+            // 
+            // temperaturechart
+            // 
+            chartArea4.Name = "ChartArea1";
+            this.temperaturechart.ChartAreas.Add(chartArea4);
+            this.temperaturechart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.temperaturechart.Location = new System.Drawing.Point(8, 8);
+            this.temperaturechart.Name = "temperaturechart";
+            series4.ChartArea = "ChartArea1";
+            series4.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series4.IsValueShownAsLabel = true;
+            series4.Label = "c";
+            series4.Name = "Series1";
+            this.temperaturechart.Series.Add(series4);
+            this.temperaturechart.Size = new System.Drawing.Size(509, 394);
+            this.temperaturechart.TabIndex = 19;
+            this.temperaturechart.Text = "chart4";
+            this.temperaturechart.Click += new System.EventHandler(this.chart4_Click);
             // 
             // QNH
             // 
@@ -267,73 +305,19 @@
             this.QNH.Text = "QNH Chart";
             this.QNH.UseVisualStyleBackColor = true;
             // 
-            // windspeedchart
-            // 
-            chartArea7.Name = "ChartArea1";
-            this.windspeedchart.ChartAreas.Add(chartArea7);
-            this.windspeedchart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.windspeedchart.Location = new System.Drawing.Point(0, 0);
-            this.windspeedchart.Name = "windspeedchart";
-            series7.ChartArea = "ChartArea1";
-            series7.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series7.IsValueShownAsLabel = true;
-            series7.Label = "c";
-            series7.Name = "Series1";
-            this.windspeedchart.Series.Add(series7);
-            this.windspeedchart.Size = new System.Drawing.Size(509, 394);
-            this.windspeedchart.TabIndex = 18;
-            this.windspeedchart.Text = "chart2";
-            this.windspeedchart.Click += new System.EventHandler(this.chart2_Click);
-            // 
-            // dewpointchart
-            // 
-            chartArea8.Name = "ChartArea1";
-            this.dewpointchart.ChartAreas.Add(chartArea8);
-            this.dewpointchart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.dewpointchart.Location = new System.Drawing.Point(0, 4);
-            this.dewpointchart.Name = "dewpointchart";
-            series8.ChartArea = "ChartArea1";
-            series8.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series8.IsValueShownAsLabel = true;
-            series8.Label = "c";
-            series8.Name = "Series1";
-            this.dewpointchart.Series.Add(series8);
-            this.dewpointchart.Size = new System.Drawing.Size(509, 394);
-            this.dewpointchart.TabIndex = 19;
-            this.dewpointchart.Text = "chart3";
-            this.dewpointchart.Click += new System.EventHandler(this.chart3_Click);
-            // 
-            // temperaturechart
-            // 
-            chartArea9.Name = "ChartArea1";
-            this.temperaturechart.ChartAreas.Add(chartArea9);
-            this.temperaturechart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
-            this.temperaturechart.Location = new System.Drawing.Point(8, 8);
-            this.temperaturechart.Name = "temperaturechart";
-            series9.ChartArea = "ChartArea1";
-            series9.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series9.IsValueShownAsLabel = true;
-            series9.Label = "c";
-            series9.Name = "Series1";
-            this.temperaturechart.Series.Add(series9);
-            this.temperaturechart.Size = new System.Drawing.Size(509, 394);
-            this.temperaturechart.TabIndex = 19;
-            this.temperaturechart.Text = "chart4";
-            this.temperaturechart.Click += new System.EventHandler(this.chart4_Click);
-            // 
             // qnhchart
             // 
-            chartArea10.Name = "ChartArea1";
-            this.qnhchart.ChartAreas.Add(chartArea10);
+            chartArea5.Name = "ChartArea1";
+            this.qnhchart.ChartAreas.Add(chartArea5);
             this.qnhchart.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.qnhchart.Location = new System.Drawing.Point(8, 8);
             this.qnhchart.Name = "qnhchart";
-            series10.ChartArea = "ChartArea1";
-            series10.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series10.IsValueShownAsLabel = true;
-            series10.Label = "c";
-            series10.Name = "Series1";
-            this.qnhchart.Series.Add(series10);
+            series5.ChartArea = "ChartArea1";
+            series5.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series5.IsValueShownAsLabel = true;
+            series5.Label = "c";
+            series5.Name = "Series1";
+            this.qnhchart.Series.Add(series5);
             this.qnhchart.Size = new System.Drawing.Size(509, 394);
             this.qnhchart.TabIndex = 19;
             this.qnhchart.Text = "qnhchart";
@@ -341,7 +325,7 @@
             // 
             // onbutton
             // 
-            this.onbutton.Location = new System.Drawing.Point(42, 301);
+            this.onbutton.Location = new System.Drawing.Point(41, 387);
             this.onbutton.Name = "onbutton";
             this.onbutton.Size = new System.Drawing.Size(52, 23);
             this.onbutton.TabIndex = 19;
@@ -351,7 +335,7 @@
             // 
             // offbutton
             // 
-            this.offbutton.Location = new System.Drawing.Point(100, 301);
+            this.offbutton.Location = new System.Drawing.Point(99, 387);
             this.offbutton.Name = "offbutton";
             this.offbutton.Size = new System.Drawing.Size(54, 23);
             this.offbutton.TabIndex = 20;
@@ -372,17 +356,54 @@
             // comListener
             // 
             this.comListener.FormattingEnabled = true;
-            this.comListener.Location = new System.Drawing.Point(43, 340);
+            this.comListener.Location = new System.Drawing.Point(42, 426);
             this.comListener.Name = "comListener";
-            this.comListener.Size = new System.Drawing.Size(110, 21);
+            this.comListener.Size = new System.Drawing.Size(111, 21);
             this.comListener.TabIndex = 22;
             this.comListener.SelectedIndexChanged += new System.EventHandler(this.comListener_SelectedIndexChanged);
+            // 
+            // Humidity
+            // 
+            this.Humidity.AutoSize = true;
+            this.Humidity.Location = new System.Drawing.Point(40, 294);
+            this.Humidity.Name = "Humidity";
+            this.Humidity.Size = new System.Drawing.Size(47, 13);
+            this.Humidity.TabIndex = 24;
+            this.Humidity.Text = "Humidity";
+            this.Humidity.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // textBoxHumidity
+            // 
+            this.textBoxHumidity.Location = new System.Drawing.Point(44, 310);
+            this.textBoxHumidity.Name = "textBoxHumidity";
+            this.textBoxHumidity.Size = new System.Drawing.Size(100, 20);
+            this.textBoxHumidity.TabIndex = 23;
+            // 
+            // altitude
+            // 
+            this.altitude.AutoSize = true;
+            this.altitude.Location = new System.Drawing.Point(40, 40);
+            this.altitude.Name = "altitude";
+            this.altitude.Size = new System.Drawing.Size(42, 13);
+            this.altitude.TabIndex = 10;
+            this.altitude.Text = "Altitude";
+            this.altitude.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // textBoxAltitude
+            // 
+            this.textBoxAltitude.Location = new System.Drawing.Point(43, 56);
+            this.textBoxAltitude.Name = "textBoxAltitude";
+            this.textBoxAltitude.Size = new System.Drawing.Size(100, 20);
+            this.textBoxAltitude.TabIndex = 0;
+            this.textBoxAltitude.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(764, 494);
+            this.Controls.Add(this.Humidity);
+            this.Controls.Add(this.textBoxHumidity);
             this.Controls.Add(this.comListener);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.offbutton);
@@ -393,26 +414,26 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.altitude);
             this.Controls.Add(this.textBoxQNH);
             this.Controls.Add(this.textBoxTemperature);
             this.Controls.Add(this.textBoxDewPoint);
             this.Controls.Add(this.textBoxWindSpeed);
-            this.Controls.Add(this.textBoxWindDirection);
+            this.Controls.Add(this.textBoxAltitude);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.eventLog1)).EndInit();
             this.tabControl1.ResumeLayout(false);
             this.WindDirection.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.humiditychart)).EndInit();
             this.WindSpeed.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.winddirectionchart)).EndInit();
-            this.DewPoint.ResumeLayout(false);
-            this.Temperature.ResumeLayout(false);
-            this.QNH.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.windspeedchart)).EndInit();
+            this.DewPoint.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dewpointchart)).EndInit();
+            this.Temperature.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.temperaturechart)).EndInit();
+            this.QNH.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.qnhchart)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -425,9 +446,7 @@
         private System.Windows.Forms.TextBox textBoxTemperature;
         private System.Windows.Forms.TextBox textBoxDewPoint;
         private System.Windows.Forms.TextBox textBoxWindSpeed;
-        private System.Windows.Forms.TextBox textBoxWindDirection;
         private System.Windows.Forms.TextBox textBoxQNH;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label5;
@@ -436,7 +455,7 @@
         private Component1 component11;
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage WindDirection;
-        private System.Windows.Forms.DataVisualization.Charting.Chart winddirectionchart;
+        private System.Windows.Forms.DataVisualization.Charting.Chart humiditychart;
         private System.Windows.Forms.TabPage WindSpeed;
         private System.Windows.Forms.DataVisualization.Charting.Chart windspeedchart;
         private System.Windows.Forms.TabPage DewPoint;
@@ -449,6 +468,10 @@
         private System.Windows.Forms.Button onbutton;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox comListener;
+        private System.Windows.Forms.Label Humidity;
+        private System.Windows.Forms.TextBox textBoxHumidity;
+        private System.Windows.Forms.Label altitude;
+        private System.Windows.Forms.TextBox textBoxAltitude;
     }
 }
 
